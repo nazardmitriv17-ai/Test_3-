@@ -1,1 +1,5 @@
+ HEAD
 Зміни з гілки main
+
+Зміни з гілки conflict_test
+ conflict_test
