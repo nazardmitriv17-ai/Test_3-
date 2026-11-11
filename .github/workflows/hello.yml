@@ -1,0 +1,16 @@
+name: My First Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print messages
+        run: |
+          echo "Hello from GitHub Actions!"
+          echo "Назва репозиторію: ${{ github.repository }}"
+          echo "Номер поточного запуску: ${{ github.run_number }}"
